@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "alfred"
+version = "0.1.0"
+description = ""
+authors = ["Tayler Blake <tayler.a.blake@gmail.com>"]
+readme = "README.md"
+packages = [{include = "alfred"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
